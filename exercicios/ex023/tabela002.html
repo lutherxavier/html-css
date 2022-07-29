@@ -9,6 +9,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
         td, th {
@@ -22,14 +23,30 @@
         td.numero {
             text-align: right;
         }
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.39);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            padding: -1px;
+            background-color: gray;
+        }
     </style>
 </head>
 <body>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Unidade Federativa</th>
-                <th>População (2021)</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col" style="width: 50px;">População (2021)</th>
             </tr>
         </thead>
         <tbody>
@@ -45,13 +62,61 @@
                 <td>Rio de Janeiro</td>
                 <td class="numero">17 463 349</td>
             </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quam recusandae molestiae fugit, nihil commodi soluta nulla praesentium reiciendis fuga non? Corporis illum ab asperiores labore aut provident unde doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor est accusantium fuga, numquam eligendi vero ipsam sint. Autem unde blanditiis saepe, quis amet possimus et beatae perferendis, necessitatibus odit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint totam deserunt qui quisquam, voluptatibus ex omnis excepturi veritatis minus aperiam quod hic alias cupiditate. Accusantium laborum quos reprehenderit quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deleniti quos nulla consequuntur accusamus animi! Ducimus, illum at? Autem aliquid veritatis obcaecati voluptatem fuga saepe dolorem tenetur quam nobis repellendus!</p>
 </body>
 </html>
